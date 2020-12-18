@@ -9,9 +9,9 @@ public class Assignment1 {
 
         for ( celcius = 0; celcius<=100; celcius=celcius+2){
 
-            farenheit = (double) (1.8 * celcius) + 32;
+            farenheit = (double) celcius *9/5+32;
 
-            System.out.println("Celcius:" + celcius + " Farenheit: " + (int) farenheit);
+            System.out.println("Celcius:" + celcius + " Farenheit: " + farenheit);
         
         }      
     }
